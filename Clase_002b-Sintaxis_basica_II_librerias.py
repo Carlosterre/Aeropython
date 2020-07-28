@@ -56,4 +56,3 @@ plt.show()
 
 print('minimum inflammation per day')                                          # Inflamacion minima por dia
 plt.plot(data.min(axis=0))
-plt.show()
