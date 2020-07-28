@@ -45,7 +45,7 @@ def center(data, desired):                                                     #
 
 help(center)
 
-# 'np.loadtxt('../data/swc/inflammation-01.csv', delimiter=',')': array(...)
+# 'np.loadtxt('inflammation-01.csv', delimiter=',')': array(...)
 
 def center(data, desired=0.0):                                                 # Funcion definida con valores por defecto para algunos de sus argumentos, de modo que pueden ser llamadas sin especificar el valor de esos argumentos cada vez
 

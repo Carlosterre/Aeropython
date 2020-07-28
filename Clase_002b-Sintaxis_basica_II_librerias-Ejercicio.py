@@ -12,4 +12,3 @@ plt.show()
 plt.plot(data.max(axis=0))                                                     # Inflamacion maxima, media y minima para cada dia
 plt.plot(data.mean(axis=0))
 plt.plot(data.min(axis=0))
-plt.show()
