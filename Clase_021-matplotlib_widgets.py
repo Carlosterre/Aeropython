@@ -24,4 +24,4 @@ frecuencias()
 # Componentes interactivos
 from ipywidgets import interact
 
-interact(frecuencias, f1=(10.0,200.0), f2=(10.0,200.0))
+interact(frecuencias, f1=(10.0, 200.0), f2=(10.0, 200.0))
