@@ -54,7 +54,7 @@ x = np.linspace(-5, 5, 200)                                                    #
 lag_pol = interpolate.lagrange(xp, fp)                                         # Polinomio de Lagrange para interpolar
 y = lag_pol(x)
 
-plt.plot(x, y, label='Interpolation')
+plt.plot(x, y, label='Interpolacion')
 plt.plot(xp, fp, 'o', label='Muestras')
 plt.plot(x, runge(x), label='Real')
 plt.legend(loc='upper center')
