@@ -121,7 +121,6 @@ print(rho_ISA([0, 11000, 20000]))
 # Al tratarse de una ecuación en derivada segunda, hay que hacer una reduccion de orden
 
 from scipy import integrate
-import matplotlib.pyplot as plt
 
 def f(y, t):                                                                   # Funcion del sistema
     g = 9.8                                                                    # m/s^2
