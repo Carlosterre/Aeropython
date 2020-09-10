@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt                                                #
 
 plt.plot([0.0, 0.1, 0.2, 0.7, 0.9], [1, -2, 3, 4, 1])
 plt.show()
+#plt.figure(figsize=(16,9))                                                     # En lugar de 'plt.show()'. Permite cambiar la resolucion
 
 
 # Representar la funcion f(x)=e^(-x^2)
