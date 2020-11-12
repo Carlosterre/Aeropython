@@ -1,6 +1,6 @@
 # En Python los bloques se delimitan por sangrado, utilizando siempre cuatro espacios por indentacion
-# Al colocar ':' al final de la primera linea del condicional, todo lo que vaya a continuaci贸n con un nivel de sangrado superior se considera dentro del condicional
-# Al escribir la primera l铆nea con un nivel de sangrado inferior, se cierra el condicional
+# Al colocar ':' al final de la primera linea del condicional, todo lo que vaya a continuacion con un nivel de sangrado superior se considera dentro del condicional
+# Al escribir la primera li璶ea con un nivel de sangrado inferior, se cierra el condicional
 
 x = 3                                                                          # Se definen dos variables
 y = 1
@@ -9,7 +9,7 @@ print(x,y)
 if x > y:                                                                      # If simple x > y
     print("x es mayor que y")
     
-# Para a帽adir ramas adicionales al condicional, se puede emplear la sentencia 'elif' (abreviatura de else if). Para la parte final, que debe ejecutarse si ninguna de las condiciones anteriores se ha cumplido, se usa la sentencia 'else'
+# Para anadir ramas adicionales al condicional, se puede emplear la sentencia 'elif' (abreviatura de else if). Para la parte final, que debe ejecutarse si ninguna de las condiciones anteriores se ha cumplido, se usa la sentencia 'else'
 x = 0                                                                          # Se le asigna un nuevo valor a x
 print(x,y)
 
@@ -33,7 +33,7 @@ while ii < 5:                                                                  #
     print(ii)
     ii += 1                                                                    # Como en el caso de los condicionales, los bloques se separan por indentacion sin necesidad de sentencias del tipo 'end'
     
-# `ii += 1` equivale a `ii = ii + 1`. En el segundo, Python realiza la operaci贸n 'ii + 1' creando un nuevo objeto con ese valor y luego lo asigna a la variable 'ii'. Existe una reasignaci贸n. En el primero, sin embargo, el incremento se produce sobre la propia variable. Esto puede conducirnos a mejoras en velocidad
+# `ii += 1` equivale a `ii = ii + 1`. En el segundo, Python realiza la operacion 'ii + 1' creando un nuevo objeto con ese valor y luego lo asigna a la variable 'ii'. Existe una reasignaci贸n. En el primero, sin embargo, el incremento se produce sobre la propia variable. Esto puede conducirnos a mejoras en velocidad
 # Otros operadores in-place son: '-=', '*=', '/='
 
 ii = 0                                                                         # 'break' interrumpe el bucle
@@ -43,7 +43,7 @@ while ii < 5:
     if ii == 3:
         break
     
-ii = 0                                                                         # Un bloque else justo despu茅s del bucle se ejecuta si este no ha sido interrumpido
+ii = 0                                                                         # Un bloque else justo despues del bucle se ejecuta si este no ha sido interrumpido
 while ii < 5:
     print(ii)
     ii += 1

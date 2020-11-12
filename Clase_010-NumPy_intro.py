@@ -1,5 +1,5 @@
 ºimport numpy as np
-print(np.__version__)                                                          # Muestra la versiÃ³n instalada
+print(np.__version__)                                                          # Muestra la version instalada
 
 mi_primer_array = np.array([1, 2, 3, 4])
 print(mi_primer_array)

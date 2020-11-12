@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import interpolate
 
-# Ver Clase_033
+# Ver 'Clase_033'
 datos = np.loadtxt("polar.dat")
 C_L = datos[0]
 C_D = datos[1]
